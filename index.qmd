@@ -13,7 +13,7 @@ format:
     smaller: true
     scrollable: true
     theme: "./estilos/urbn.scss"
-    highlight-style: github
+    #highlight-style: github
     slide-number: true
     incremental: false
     toc: false
@@ -31,6 +31,7 @@ title-slide-attributes:
 ---
 
 ## 1. INTRODUÇÃO {.center}
+
 
 ---
 
@@ -127,18 +128,23 @@ Diversas atores produzem ou derivam dados espaciais sistematicamente para os mai
 
 ### 2.2 Componentes de uma IDE
 
-![](./imagens/Pasted image 20240915224813.png){.absolute left="300px"}
+![](./imagens/Pasted image 20240915224813.png)
 
 ---
+
+#### 2.2.1 Componentes de uma IDE: Instituições e Organizações
 
 ![](./imagens/Pasted image 20240915224716.png)
 
 ---
 
+#### 2.2.2 Componentes de uma IDE: Dados
 
-![](./imagens/Pasted image 20240915224948.png)
+![](./imagens/Pasted image 20240915224948.png){height=70% fig-align="center"}
 
 ---
+
+#### 2.2.3 Componentes de uma IDE: Metadados
 
 ![](./imagens/Pasted image 20240915225018.png)
 
@@ -156,15 +162,19 @@ Diversas atores produzem ou derivam dados espaciais sistematicamente para os mai
 
 ---
 
+#### 2.2.4 Componentes de uma IDE: Serviços
+
 ![](./imagens/Pasted image 20240915225044.png)
 
 ---
+
+#### 2.2.5 Componentes de uma IDE: Padrões
 
 ![](./imagens/Pasted image 20240915225540.png)
 
 ---
 
-### No Brasil {.center}
+## No Brasil {.center}
 
 ---
 
@@ -199,14 +209,16 @@ Diversas atores produzem ou derivam dados espaciais sistematicamente para os mai
 
 ---
 
+## 3. Demonstração
+
+- [Sistema de Carga de Dados da INDE](https://inde.gov.br/shpinde)
+- [Geoserviços - Geoserver](https://geoservicos.inde.gov.br/geoserver/web/)
+- [Metadados](https://metadados.inde.gov.br/geonetwork/srv/por/catalog.search#/home)
+
+---
+
 ## OBRIGADO! {.center}
 
----
-
+::: {.fragment}
 <img src="./gifs/bye-giphy.webp" alt="temos um problema" width="700px">
-
----
-
-#
-
----
+:::
