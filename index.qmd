@@ -1,0 +1,212 @@
+---
+title: "Introdução a Infraestrutura de Dados Espaciais"
+author: Felipe Ramos Dantas
+institute: "Instituto Federal do Piauí - Campus Teresina Central"
+date: 2024-09-16
+date-format: DD-MM-YYYY
+lang: "pt-br"
+format: 
+  revealjs:
+    center-title-slide: true
+    controls: true
+    embed-resources: true
+    smaller: true
+    scrollable: true
+    theme: "./estilos/urbn.scss"
+    highlight-style: github
+    slide-number: true
+    incremental: false
+    toc: false
+    # toc-title: "Sumário"
+    transition: slide
+    background-transition: fade
+    height: 800
+    width: 1080
+    footer: "Introdução a Infraestrutura de Dados Espaciais | Felipe Dantas"
+    # logo: "imagens/ifpi.png"
+title-slide-attributes: 
+    data-background-image: "imagens/mapeprof.png"
+    data-background-size: 20%
+    data-background-position: 90% 83%
+---
+
+## 1. INTRODUÇÃO {.center}
+
+---
+
+### 1.1 Informação Geográfica para formulação de Políticas
+
+A informação geográfica é necessária em muitos domínios políticos
+
+Diversas atores produzem ou derivam dados espaciais sistematicamente para os mais diversos fins…
+
+- Ambiental
+- Financeiros
+- Sociedade
+- Saúde
+- Territorial
+- Educação
+
+…Nos mais diversos formatos
+ 
+- Arquivos de texto, planilhas
+- Shapefile, Geodatabase, GeoJson
+- TIFF, jp2, ecw, kea
+
+---
+
+… e armazenados em diversos lugares
+
+- Disco Rígido do computador local;
+- CD, DVD, Pendriver e HD Externo;
+- Armazenamento em nuvem:
+	- Google Driver, Dropbox e OneDriver
+	- Data Warehouse + Data Lake
+		- AWS + Amazon S3;
+		- Google Cloud + Google Cloud Storage.
+		- Microsoft Azure + Azure Data Lake Storage;
+
+---
+
+<img src="./gifs/we-have-a-problem.webp" aalt="temos um problema" width="700px">
+
+---
+
+- Atores coletando, gerenciando e armazenando dados semelhantes;
+- Alto custo;
+- Incompatibilidade de formatos;
+- Como e onde acessar os dados?
+- Quem, quando e como foi produzido um dado?
+
+---
+
+## 2. INFRAESTRUTURA DE DADOS ESPACIAIS 
+
+---
+
+- Aqueles problemas foram reconhecidos pelos governos dos países de todo o mundo;
+	- Necessidade compartilhamento de informações e tomar decisões colaborativamente
+	- Interoperabilidade
+	- Metadados
+	- Padrões de disponibilização de dados
+
+- Muitas IDEs surgiram desde 1990 (Masser, 1999)
+	- Nos EUA a [NSDI](https://www.fgdc.gov/nsdi/nsdi.html) (1993)
+	- Na UE a [INSPIRE](https://knowledge-base.inspire.ec.europa.eu/index_en) (2001)
+	- No Brasil a [INDE](https://inde.gov.br/Inde/Apresentacao) (2008)
+
+---
+
+### 2.1  Definição
+
+::: {.callout-note}
+
+## Conceito da [NSDI](https://www.fgdc.gov/gda)
+
+“... a tecnologia, políticas, critérios, padrões e funcionários necessários para promover o compartilhamento de dados geoespaciais nos governos federal, estadual, tribal e local, e no setor privado (incluindo organizações sem fins lucrativos e instituições de ensino superior)”.
+
+:::
+
+::: {.callout-note appearance="default"}
+
+## Objetivo da  [INSPIRE](https://knowledge-base.inspire.ec.europa.eu/overview/use_en)
+
+"É uma diretiva da União Europeia cujo principal objetivo é criar conjuntos de dados espaciais que possam ser utilizados de forma integrada em aplicações transfronteiriças"
+
+:::
+
+::: {.callout-note}
+
+## Conceito da [INDE](https://inde.gov.br/Inde/Apresentacao)
+
+"Conjunto integrado de tecnologias, políticas, mecanismos e procedimentos de coordenação e monitoramento, padrões e acordos, necessário para facilitar e ordenar a geração, o armazenamento, o acesso, o compartilhamento, a disseminação e o uso dos dados geoespaciais de origem federal, estadual, distrital e municipal."
+
+:::
+
+---
+
+### 2.2 Componentes de uma IDE
+
+![](./imagens/Pasted image 20240915224813.png){.absolute left="300px"}
+
+---
+
+![](./imagens/Pasted image 20240915224716.png)
+
+---
+
+
+![](./imagens/Pasted image 20240915224948.png)
+
+---
+
+![](./imagens/Pasted image 20240915225018.png)
+
+---
+
+![](./imagens/Pasted image 20240915233428.png)
+
+---
+
+![](./imagens/Pasted image 20240915233517.png)
+
+---
+
+![](./imagens/Pasted image 20240915233939.png)
+
+---
+
+![](./imagens/Pasted image 20240915225044.png)
+
+---
+
+![](./imagens/Pasted image 20240915225540.png)
+
+---
+
+### No Brasil
+
+---
+
+![](./imagens/Pasted image 20240915230008.png)
+
+---
+
+#### Catálogo de Metadados
+
+![](./imagens/Pasted image 20240915212913.png)
+
+---
+
+#### Catálogo de Geosserviço
+
+![](./imagens/vivaldi_XUnINNqPk7.png)
+
+![](./imagens/Pasted image 20240915133302.png)
+
+---
+
+![](./imagens/vivaldi_mPbiaOC87E.png)
+
+
+![](./imagens/vivaldi_vkcZPSpOzD.png)
+
+---
+
+### 2.3 Geoportal INDE
+
+![](./imagens/Pasted image 20240915234457.png)
+
+---
+
+## OBRIGADO!
+
+---
+
+<img src="./gifs/bye-giphy.webp" alt="temos um problema" width="700px">
+
+---
+
+#
+
+---
