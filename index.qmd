@@ -80,7 +80,7 @@ Diversas atores produzem ou derivam dados espaciais sistematicamente para os mai
 
 ---
 
-## 2. INFRAESTRUTURA DE DADOS ESPACIAIS 
+## 2. INFRAESTRUTURA DE DADOS ESPACIAIS {.center}
 
 ---
 
@@ -164,7 +164,7 @@ Diversas atores produzem ou derivam dados espaciais sistematicamente para os mai
 
 ---
 
-### No Brasil
+### No Brasil {.center}
 
 ---
 
@@ -199,7 +199,7 @@ Diversas atores produzem ou derivam dados espaciais sistematicamente para os mai
 
 ---
 
-## OBRIGADO!
+## OBRIGADO! {.center}
 
 ---
 
